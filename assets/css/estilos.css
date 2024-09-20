@@ -1,0 +1,162 @@
+.contenedorIMG{
+    background-color: pink;
+}
+
+.iconSMS{
+    width: 100px;
+    stroke: pink;
+}
+
+#contenedorContactos{
+    border: 2px;
+    border-style: double;
+    border-color: black;
+    background-color: rgba(245, 185, 194, 0.548);
+}
+
+#c1{
+    border: 2px;
+    border-style: double;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(120, 122, 121, 0.979);
+}
+
+#c2{
+    border: 2px;
+    border-style: double;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(238, 135, 39);
+}
+#c3{
+    border: 2px;
+    border-style: double;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(49, 98, 204);
+}
+#c4{
+    border: 2px;
+    border-style: double;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(16, 133, 31);
+}
+#c5{
+    border: 2px;
+    border-style: double;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(175, 51, 57);
+}
+
+#chat{
+    border: 2px;
+    border-style: double;
+}
+
+#txtChat{
+    text-align: end;
+    padding: 2%;
+}
+
+#infoUsuario{
+    text-align: center;
+    background-color: rgb(151, 148, 148);
+}
+
+#chatCentral{
+    padding-top: 130px;
+    text-align: center;
+    background-color: rgba(219, 200, 203, 0.548);
+}
+
+#textoEnviar{
+    text-align: end;
+    background-color: rgb(238, 143, 159);
+
+}
+
+figure{
+    border-radius: 100%;
+    width: auto;
+    transition: width 2s, height 2s;
+}
+
+figure:hover{
+    width: 200%;
+    height: 200%;
+
+}
+
+img{
+    max-width: 100%;    
+}
+
+.contenedorPadreRecibido{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.recibido{
+    background-color: rgb(159, 224, 214);
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.contenedorPadreEnviado{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.enviado{
+    background-color: rgba(255, 255, 255, 0.986);
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#contenedorMensajeEnviado{
+    display: none;
+}
+
+.contenedorLogo{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.SmsOriginal{
+    fill: lightblue;
+}
+
+@media screen and (min-width:768px){
+    .SmsOriginal{
+        fill:palevioletred
+    }
+
+    .contenedorLogo{
+        width: 40px;
+        height: 40px;
+        
+    }
+}
+
+.microfono{
+    width: 40px;
+    height: 40px;
+}
+
+.emoji{
+    width: 40px;
+    height: 40px;
+}
+
+#contactosBackground{
+    background-color: rgba(219, 97, 103, 0.445);
+}
